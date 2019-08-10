@@ -1,0 +1,117 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>ThingLink</title>
+        <link rel="icon" href="gfx/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="gfx/icons/tl-webclip-icon-57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="gfx/icons/tl-webclip-icon-72.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="gfx/icons/tl-webclip-icon-114.png" />
+        <link rel="stylesheet" href="player360/player.css">
+        <script type="text/javascript" src="ext/jquery-2.2.0.min.js" ></script>
+
+        <script src="player360/player.js"></script>
+
+        
+    </head>
+    <body style="margin:0;">
+        <div class="container" style="position:relative;width:100%;height:100%;">
+            <div class="tlVideoPlayer" style="position:absolute;width:100%;height:100%;">
+	            
+	        </div>
+        </div>
+
+        <script>
+        var player;
+        $(document).ready(function(){
+            var options = {
+                displayShare: true,
+                displayPanel: true
+            };
+
+            var url = "api/video/961548987523923969";
+            player = new Player($('.container'), options);
+            player.load(url);
+
+            function sendEvent(event, params) {
+                var data = {event: event};
+                $.extend(data, params);
+                $.getJSON('https://www.thinglink.com/api/internal/logVideoAccess?callback=?', data, function() {
+                    if (window.parent) {
+                        parent.postMessage(data, '*');
+                    }
+                });
+            }
+
+            function waitForInteraction() {
+                var d = $.Deferred();
+                $(document).one('touchstart mousedown', function() {
+                    d.resolve();
+                });
+                return d.promise();
+            }
+
+            player.one('loadscene', function(e, videoid) {
+                waitForInteraction().then(function() {
+                    sendEvent('video.start', {videoid: videoid});
+
+                    setInterval(function() {
+                        sendEvent('video.heartbeat', {videoid: videoid, time: 10000});
+                    }, 10000);
+                });
+
+                player.on('opentag', function(e, tagid) {
+                    sendEvent('tag.hover', {videoid: videoid, tagid: tagid});
+
+                    var timeStart = Date.now();
+                    player.off('closetag.statistics');
+                    player.on('closetag.statistics', function(e, tagid) {
+                        var timeEnd = Date.now();
+                        var time = timeEnd - timeStart;
+                        sendEvent('tag.heartbeat', {videoid: videoid, tagid: tagid, time: time});
+                    });
+                });
+            });
+        });
+        </script>
+
+        <script>
+        $(document).ready(function() {
+            var topMargin = 0;
+            $(window).resize(function() {
+                window.scrollTo(0, 0);
+                $('body').width(window.innerWidth).height(window.innerHeight-topMargin);
+                setTimeout(function() {
+                    $('body').width(window.innerWidth).height(window.innerHeight-topMargin);
+                }, 100);
+            });
+            $(window).resize();
+        });
+        </script>
+
+        
+
+
+
+
+
+
+
+    </body>
+</html>
