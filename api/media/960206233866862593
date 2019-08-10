@@ -1,0 +1,185 @@
+{
+    "results":
+    {
+        "metadata":
+        {
+            "architectural": true,
+            "yaw": 0.018300539729649245,
+            "pitch": -7.632783294297951E-17
+        },
+        "etag": "5vxwe39wx59fELLsNNyuBT",
+        "tags": [
+        {
+            "id": "961672584661827586",
+            "shortTitle": "",
+            "title": "",
+            "description": "",
+            "box":
+            {
+                "x1": 0.25370947,
+                "x2": 0.0,
+                "y1": 0.46379852,
+                "y2": 0.0
+            },
+            "sceneid": "960206233866862593",
+            "link": "https://www.thinglink.com/video/960208000641925121",
+            "nubbin": "transparent",
+            "opacity": 1.0,
+            "pinned": false,
+            "styles": "{\"bubble\":{\"foregroundColor\":\"inherit\",\"backgroundColor\":\"inherit\"},\"font\":{\"size\":\"inherit\",\"family\":\"inherit\",\"source\":\"default\"}}",
+            "properties": "{}",
+            "icon": "/api/image/th-05/180/180/thumbnail",
+            "openlink": "auto",
+            "duration": 5000,
+            "start": 0,
+            "point":
+            {
+                "x": 0.25370947,
+                "y": 0.46379852
+            },
+            "header": "",
+            "isDirectEmbed": false,
+            "videoid": "960206233866862593"
+        },
+        {
+            "id": "961674354150604802",
+            "shortTitle": "",
+            "title": "",
+            "description": "",
+            "box":
+            {
+                "x1": 0.6330449,
+                "x2": 0.0,
+                "y1": 0.5375603,
+                "y2": 0.0
+            },
+            "sceneid": "960206233866862593",
+            "link": "https://www.thinglink.com/video/961548987523923969",
+            "nubbin": "transparent",
+            "opacity": 1.0,
+            "pinned": false,
+            "styles": "{\"bubble\":{\"foregroundColor\":\"inherit\",\"backgroundColor\":\"inherit\"},\"font\":{\"size\":\"inherit\",\"family\":\"inherit\",\"source\":\"default\"}}",
+            "properties": "{}",
+            "icon": "/api/image/th-06/180/180/thumbnail",
+            "openlink": "auto",
+            "duration": 5000,
+            "start": 0,
+            "point":
+            {
+                "x": 0.6330449,
+                "y": 0.5375603
+            },
+            "header": "",
+            "isDirectEmbed": false,
+            "videoid": "960206233866862593"
+        },
+        {
+            "id": "962020229813108738",
+            "shortTitle": "This is a marble bust of Charles James Fox, the first British Foreign Secretary appointed in 1782\n",
+            "title": "",
+            "description": "This is a marble bust of Charles James Fox, the first British Foreign Secretary appointed in 1782\n",
+            "box":
+            {
+                "x1": 0.47205302,
+                "x2": 0.0,
+                "y1": 0.4799607,
+                "y2": 0.0
+            },
+            "sceneid": "960206233866862593",
+            "opacity": 1.0,
+            "pinned": false,
+            "styles": "{\"bubble\":{\"foregroundColor\":\"inherit\",\"backgroundColor\":\"inherit\"},\"font\":{\"size\":\"inherit\",\"family\":\"inherit\",\"source\":\"default\"}}",
+            "properties": "{}",
+            "picture": "/api/image/2gsjgna1uruvUagPpGEdyTiQumVNaJjAZAUYyuj2MJsEnbV6QmeVRJfgEL9zVK6RGr9FxzWr9gDb98YrMjXZ9bFrc1c4g1SE3E6xb2VyBCK2ouMADC/10/10/none",
+            "icon": "/api/image/th-07/180/180/thumbnail",
+            "openlink": "auto",
+            "duration": 5000,
+            "start": 0,
+            "point":
+            {
+                "x": 0.47205302,
+                "y": 0.4799607
+            },
+            "header": "",
+            "isDirectEmbed": false,
+            "videoid": "960206233866862593"
+        },
+        {
+            "id": "962021929126985730",
+            "shortTitle": "",
+            "title": "",
+            "description": "",
+            "box":
+            {
+                "x1": 0.36789396,
+                "x2": 0.0,
+                "y1": 0.5302677,
+                "y2": 0.0
+            },
+            "sceneid": "960206233866862593",
+            "link": "/widget/962395134245208067.html",
+            "opacity": 1.0,
+            "pinned": false,
+            "styles": "{\"bubble\":{\"foregroundColor\":\"inherit\",\"backgroundColor\":\"inherit\"},\"font\":{\"size\":\"inherit\",\"family\":\"inherit\",\"source\":\"default\"}}",
+            "properties": "{}",
+            "icon": "/api/image/th-08/180/180/thumbnail",
+            "openlink": "auto",
+            "duration": 5000,
+            "start": 0,
+            "point":
+            {
+                "x": 0.36789396,
+                "y": 0.5302677
+            },
+            "header": "",
+            "isDirectEmbed": true,
+            "videoid": "960206233866862593"
+        }],
+        "id": "960206233866862593",
+        "owner":
+        {
+            "id": "883824375579541504",
+            "name": "Foreign & Commonwealth Office",
+            "status": "OK",
+            "avatar":
+            {
+                "small": "https://cdn.thinglink.me/api/image/HuuaCvCTvqKRK1pctUmexwJfpC8S6atT5qvnWmvEPYLobvmrDNRr68pwugcSjQFgEhk/56/56/thumbnail",
+                "medium": "https://cdn.thinglink.me/api/image/HuuaCvCTvqKRK1pctUmexwJfpC8S6atT5qvnWmvEPYLobvmrDNRr68pwugcSjQFgEhk/100/100/thumbnail"
+            }
+        },
+        "disableapp": false,
+        "title": "FCO - The Grand Staircase",
+        "description": "",
+        "thumbnail": "https://cdn.thinglink.me/api/image/7DceLftyMsyaeCNtdQd6gToRFE31FkDCUt1bZZH1gh84w2HEtTDBgVbETUkcf82cDpcFuwN9xXmTk14aK923G/10/10/none",
+        "state": "NEW",
+        "agelimit": "K18",
+        "visibility": "PUBLIC",
+        "hidebadge": false,
+        "audio": "/audio/sD/qkN98TsEEzc4YR7gxk.mp3",
+        "embedUrl": "https://www.thinglink.com/mediacard/960206233866862593",
+        "whitelabel": false,
+        "flagreason": "NONE",
+        "type": "video",
+        "created": "2017-09-01T15:56:45Z",
+        "changed": "2017-09-01T15:56:45Z",
+        "version": "",
+        "variants": [
+        {
+            "variant": "unknown",
+            "url": "https://cdn.thinglink.me/api/image/HNWT6DgoBc18DMUxaN2WY6Am4n2wBv9WPTgzVP3bfmdEvmt1dMJNtGVSKbAA5HcLTyDv4QNhRQEffoesKAPTH4HX32fh5LCmEo6mgBUAresSrb3G5wfKwPxsgVL/10/10/none",
+            "secureUrl": "https://cdn.thinglink.me/api/image/HNWT6DgoBc18DMUxaN2WY6Am4n2wBv9WPTgzVP3bfmdEvmt1dMJNtGVSKbAA5HcLTyDv4QNhRQEffoesKAPTH4HX32fh5LCmEo6mgBUAresSrb3G5wfKwPxsgVL/10/10/none",
+            "mimeType": "image/jpeg",
+            "width": 640,
+            "height": 360
+        }],
+        "interactive": true,
+        "is360": true,
+        "url": "https://cdn.thinglink.me/api/image/HNWT6DgoBc18DMUxaN2WY6Am4n2wBv9WPTgzVP3bfmdEvmt1dMJNtGVSKbAA5HcLTyDv4QNhRQEffoesKAPTH4HX32fh5LCmEo6mgBUAresSrb3G5wfKwPxsgVL/10/10/none",
+        "secureUrl": "https://cdn.thinglink.me/api/image/HNWT6DgoBc18DMUxaN2WY6Am4n2wBv9WPTgzVP3bfmdEvmt1dMJNtGVSKbAA5HcLTyDv4QNhRQEffoesKAPTH4HX32fh5LCmEo6mgBUAresSrb3G5wfKwPxsgVL/10/10/none",
+        "views": 10830,
+        "pageUrl": "https://www.thinglink.com/video/960206233866862593",
+        "embedAddress": "//cdn.thinglink.me",
+        "gdpr": false,
+        "isOwnerGroup": false
+    }
+}
