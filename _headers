@@ -4,6 +4,6 @@
 /961548987523923969.html
 	Link: </player360/player.css>; rel=preload; as=style
 	Link: </player360/player.js>; rel=preload; as=script
-	Link: </ext/jquery-2.2.0.min.js>; rel=preload; as=script
+	Link: </ext/jquery-2.2.0.min.js>; rel=preload; as=script; x-http2-push-only
 	Link: </api/video/961548987523923969/?scopes=permissions>; rel=preload; as=fetch
 	Link: </api/video/961548987523923969/transitions>; rel=preload; as=fetch
