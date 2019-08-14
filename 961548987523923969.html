@@ -51,18 +51,34 @@
 
             /// Artem's hack
             var img = new Image();
+            var mainSceneImages = [
+               '/api/image/th-01/180/180/thumbnail',
+			   '/api/image/th-02/180/180/thumbnail',
+			   '/api/image/th-03/180/180/thumbnail',
+			   '/api/image/th-04/180/180/thumbnail',
+			   '/api/image/960206233866862593/640/10/scaledown',
+			   '/api/image/960207028351926273/640/10/scaledown',
+			   '/api/image/960208000641925121/640/10/scaledown',
+			   '/api/image/960208900341104641/640/10/scaledown',
+			   '/api/image/961207441268146179/640/10/scaledown',
+			   '/api/image/961548987523923969/640/10/scaledown',
+			   '/api/image/961932287253938178/640/10/scaledown',
+            ];
+            var mainImagesLoadedCount = 0;
+
+            function mainImageLoaded() {
+            	if(++mainImagesLoadedCount === mainSceneImages.length) {
+            		console.log('all main imgs loaded');
+
+            	}
+            }
+
 			img.onload = function () {
-			   new Image().src='/api/image/th-01/180/180/thumbnail';
-			   new Image().src='/api/image/th-02/180/180/thumbnail';
-			   new Image().src='/api/image/th-03/180/180/thumbnail';
-			   new Image().src='/api/image/th-04/180/180/thumbnail';
-			   new Image().src='/api/image/960206233866862593/640/10/scaledown';
-			   new Image().src='/api/image/960207028351926273/640/10/scaledown';
-			   new Image().src='/api/image/960208000641925121/640/10/scaledown';
-			   new Image().src='/api/image/960208900341104641/640/10/scaledown';
-			   new Image().src='/api/image/961207441268146179/640/10/scaledown';
-			   new Image().src='/api/image/961548987523923969/640/10/scaledown';
-			   new Image().src='/api/image/961932287253938178/640/10/scaledown';
+			   for(var i=0; i < mainSceneImages.length; i++) {
+			   	 var mainImg = new Image();
+			   	 mainImg.onload = mainImageLoaded;
+			   	 mainImg.src = mainSceneImages[i]
+			   }	
 
 			}
 			img.src = "/api/image/961548987523923969/16/16/none";
