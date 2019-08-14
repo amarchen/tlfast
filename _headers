@@ -7,17 +7,3 @@
 	Link: </api/video/961548987523923969/?scopes=permissions>; rel=preload; as=fetch
 	Link: </api/video/961548987523923969/transitions>; rel=preload; as=fetch
 	Link: </ext/jquery-2.2.0.min.js>; rel=preload; as=script; nopush
-
-/api/image/961548987523923969/16/16/none
-	Link: </api/image/th-01/180/180/thumbnail>; rel=preload; as=image; nopush
-	Link: </api/image/th-02/180/180/thumbnail>; rel=preload; as=image; nopush
-	Link: </api/image/th-03/180/180/thumbnail>; rel=preload; as=image; nopush
-	Link: </api/image/th-04/180/180/thumbnail>; rel=preload; as=image; nopush
-	Link: </api/image/960206233866862593/640/10/scaledown>; rel=preload; as=image; nopush
-	Link: </api/image/960207028351926273/640/10/scaledown>; rel=preload; as=image; nopush
-	Link: </api/image/960208000641925121/640/10/scaledown>; rel=preload; as=image; nopush
-	Link: </api/image/960208900341104641/640/10/scaledown>; rel=preload; as=image; nopush
-	Link: </api/image/961207441268146179/640/10/scaledown>; rel=preload; as=image; nopush
-	Link: </api/image/961548987523923969/640/10/scaledown>; rel=preload; as=image; nopush
-	Link: </api/image/961932287253938178/640/10/scaledown>; rel=preload; as=image; nopush
-	Link: </audio/mz/NuUhhMjVgB8jPhQf38.mp3>; rel=preload; as=audio; nopush
