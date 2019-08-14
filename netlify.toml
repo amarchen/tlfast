@@ -1,4 +1,4 @@
 [[headers]]
   for = "/*" # This defines which paths this specific [[headers]] block will cover.
   [headers.values]
-    Cache-Control = "public, max-age=15"
+    Cache-Control = "public, max-age=60"
