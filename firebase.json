@@ -13,7 +13,7 @@
       },
       {
         "source": "/widget/962394595402973187.html",
-        "headers": [{"key": "Link", "value": "</thingpic/images/mm/4yS7n758F2mdc3J5xn.jpg>;rel=preload;as=image;nopush"}]
+        "headers": [{"key": "Link", "value": "</thingpic/images/mm/4yS7n758F2mdc3J5xn.jpg>;rel=prefetch;as=image;nopush"}]
       }
     ]
   }
