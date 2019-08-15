@@ -20,3 +20,8 @@
 	Link: </api/image/th-07/180/180/thumbnail>; rel=preload; as=image; nopush
 	Link: </api/image/th-08/180/180/thumbnail>; rel=preload; as=image; nopush
 	Link: </audio/sD/qkN98TsEEzc4YR7gxk.mp3>; rel=prefetch; as=audio; nopush
+	Link: </api/image/2gsjgna1uruvUagPpGEdyTiQumVNaJjAZAUYyuj2MJsEnbV6QmeVRJfgEL9zVK6RGr9FxzWr9gDb98YrMjXZ9bFrc1c4g1SE3E6xb2VyBCK2ouMADC/10/10/none>; rel=prefetch; as=image; nopush
+	Link: </widget/962395134245208067.html>; rel=prefetch; as=document; nopush
+
+/widget/962395134245208067.html
+	Link: </thingpic/images/1E/BketHcVKmL5UTVsgaC.jpg; rel=prefetch; as=image; nopush
