@@ -66,10 +66,16 @@
             ];
             var mainImagesLoadedCount = 0;
 
+            function mainSoundLoadedEnough() {
+                console.log('mainSoundLoadedEnough');
+            }
+
             function mainImageLoaded() {
             	if(++mainImagesLoadedCount === mainSceneImages.length) {
             		console.log('all main imgs loaded');
-
+                    var mainSound = new Audio()
+                    mainSound.oncanplaythrough = mainSoundLoadedEnough
+                    mainSound.src='/audio/mz/NuUhhMjVgB8jPhQf38.mp3'
             	}
             }
 
@@ -82,7 +88,8 @@
 
 			}
 			img.src = "/api/image/961548987523923969/16/16/none";
-			///
+			
+
 
             function sendEvent(event, params) {
                 var data = {event: event};
