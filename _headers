@@ -11,3 +11,6 @@
 
 /widget/962394595402973187.html
 	Link: </thingpic/images/mm/4yS7n758F2mdc3J5xn.jpg>; rel=prefetch; as=image; nopush
+
+/api/media/960206233866862593/*
+	Link: </api/image/960206233866862593/16/16/none>; rel=preload; as=image; nopush

@@ -14,6 +14,10 @@
       {
         "source": "/widget/962394595402973187.html",
         "headers": [{"key": "Link", "value": "</thingpic/images/mm/4yS7n758F2mdc3J5xn.jpg>;rel=prefetch;as=image;nopush"}]
+      },
+      {
+        "source": "/api/media/960206233866862593/*",
+        "headers": [{"key": "Link", "value": "</api/image/960206233866862593/16/16/none>;rel=preload;as=image;nopush"}]
       }
     ]
   }
