@@ -14,3 +14,9 @@
 
 /api/media/960206233866862593/*
 	Link: </api/image/960206233866862593/16/16/none>; rel=preload; as=image; nopush
+	Link: </api/media/960206233866862593/?scopes=permissions>; rel=preload; as=fetch; nopush
+	Link: </api/image/th-05/180/180/thumbnail>; rel=preload; as=image; nopush
+	Link: </api/image/th-06/180/180/thumbnail>; rel=preload; as=image; nopush
+	Link: </api/image/th-07/180/180/thumbnail>; rel=preload; as=image; nopush
+	Link: </api/image/th-08/180/180/thumbnail>; rel=preload; as=image; nopush
+	Link: </audio/sD/qkN98TsEEzc4YR7gxk.mp3; rel=prefetch; as=audio; nopush
