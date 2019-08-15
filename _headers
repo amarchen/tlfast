@@ -8,3 +8,6 @@
 	Link: </api/video/961548987523923969/transitions>; rel=preload; as=fetch
 	Link: </ext/jquery-2.2.0.min.js>; rel=preload; as=script; nopush
 	Link: </api/image/961548987523923969/16/16/none>; rel=preload; as=image; nopush
+
+/962394595402973187.html
+	Link: </thingpic/images/mm/4yS7n758F2mdc3J5xn.jpg>; rel=prefetch; as=image; nopush

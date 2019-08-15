@@ -27,8 +27,9 @@
         <script type="text/javascript" src="/ext/jquery-2.2.0.min.js" ></script>
 
         <script src="/player360/player.js"></script>
-
-        
+ <!--        <link rel="prefetch" href="/widget/962394595402973187.html" />
+        <link rel="prefetch" href="/widget/96202437992592179.html" />
+  -->       
     </head>
     <body style="margin:0;">
         <div class="container" style="position:relative;width:100%;height:100%;">
@@ -68,6 +69,15 @@
 
             function mainSoundLoadedEnough() {
                 console.log('mainSoundLoadedEnough');
+
+                var w1 = $('<link rel="prefetch" href="/widget/962394595402973187.html" />').appendTo($('body'));
+                var w2 = $('<link rel="prefetch" href="/widget/96202437992592179.html" />').appendTo($('body'));
+                // w1.attr("src", '/widget/962394595402973187.html');
+                // var w1 = $("<iframe>").appendTo($('body'));
+                // w1.attr("src", '/widget/962394595402973187.html');
+                // var w2 = $("<iframe>").appendTo($('body'));
+                // w2.attr("src", '/widget/96202437992592179.html');
+                // w2.onload = function() {console.log("w2 loaded");}
             }
 
             function mainImageLoaded() {
