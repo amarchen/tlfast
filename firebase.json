@@ -9,7 +9,14 @@
     "headers": [
       {
       	"source": "/961548987523923969.html",
-        "headers": [{"key": "Link", "value": "</player360/player.css>;rel=preload;as=style"}]
+        "headers": [
+          {"key": "Link", "value": "</player360/player.css>;rel=preload;as=style;nopush"},
+          {"key": "Link", "value": "</player360/player.js>;rel=preload;as=script;nopush"},
+          {"key": "Link", "value": "</api/video/961548987523923969/?scopes=permissions>;rel=preload;as=fetch"},
+          {"key": "Link", "value": "</api/video/961548987523923969/transitions>;rel=preload;as=fetch"},
+          {"key": "Link", "value": "</ext/jquery-2.2.0.min.js>;rel=preload;as=script;nopush"},
+          {"key": "Link", "value": "</api/image/961548987523923969/16/16/none>;rel=preload;as=image;nopush"},
+        ]
       },
       {
         "source": "/widget/962394595402973187.html",
