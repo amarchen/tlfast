@@ -12,8 +12,8 @@
         "headers": [{"key": "Link", "value": "</player360/player.css>;rel=preload;as=style"}]
       },
       {
-        "source": "/962394595402973187.html",
-        "headers": [{"key": "Link", "value": "</thingpic/images/mm/4yS7n758F2mdc3J5xn.jpg>;rel=preload;as=image"}]
+        "source": "/widget/962394595402973187.html",
+        "headers": [{"key": "Link", "value": "</thingpic/images/mm/4yS7n758F2mdc3J5xn.jpg>;rel=preload;as=image;nopush"}]
       }
     ]
   }
