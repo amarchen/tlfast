@@ -31,7 +31,7 @@
           {"key": "Link", "value": "</api/image/th-02/180/180/thumbnail>;rel=preload;as=image;nopush"},
           {"key": "Link", "value": "</api/image/th-03/180/180/thumbnail>;rel=preload;as=image;nopush"},
           {"key": "Link", "value": "</api/image/th-03/180/180/thumbnail>;rel=preload;as=image;nopush"},
-          {"key": "Link", "value": "</audio/sD/qkN98TsEEzc4YR7gxk.mp3>;rel=prefetch;as=audio;nopush"}
+          {"key": "Link", "value": "</audio/sD/qkN98TsEEzc4YR7gxk.ogg>;rel=prefetch;as=audio;nopush"}
         ]
       }
     ]
